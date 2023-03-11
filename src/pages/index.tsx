@@ -5,6 +5,7 @@ import {
   MenuItem,
   Paper,
   Select,
+  Slider,
   Table,
   TableBody,
   TableCell,
@@ -12,6 +13,7 @@ import {
   TableHead,
   TableRow,
   TextField,
+  Typography,
 } from '@mui/material';
 import Container from '@mui/material/Container';
 import { NextPage } from 'next';
@@ -299,144 +301,7 @@ const HomePage: NextPage = () => {
                     onChange(countryId);
                   }}
                 >
-                  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
-                    <div className="col-span-1">
-                      <TextField
-                        fullWidth
-                        size="small"
-                        label="Power Distance"
-                        type="number"
-                        id="power-distance"
-                        name="power-distance"
-                        placeholder="Power Distance"
-                        value={scales.powerDistance}
-                        onChange={(event) => {
-                          const value = event.target.value;
-                          setScales({
-                            ...scales,
-                            powerDistance: parseInt(value, 10),
-                          });
-                        }}
-                        InputProps={{
-                          inputProps: { min: 0, max: 100, step: 1 },
-                        }}
-                      />
-                    </div>
-                    <div className="col-span-1">
-                      <TextField
-                        fullWidth
-                        size="small"
-                        label="Individualism"
-                        type="number"
-                        id="individualism"
-                        name="individualism"
-                        placeholder="Individualism"
-                        value={scales.individualism}
-                        onChange={(event) => {
-                          const value = event.target.value;
-                          setScales({
-                            ...scales,
-                            individualism: parseInt(value, 10),
-                          });
-                        }}
-                        InputProps={{
-                          inputProps: { min: 0, max: 100, step: 1 },
-                        }}
-                      />
-                    </div>
-                    <div className="col-span-1">
-                      <TextField
-                        fullWidth
-                        size="small"
-                        label="Masculinity"
-                        type="number"
-                        id="masculinity"
-                        name="masculinity"
-                        placeholder="Masculinity"
-                        value={scales.masculinity}
-                        onChange={(event) => {
-                          const value = event.target.value;
-                          setScales({
-                            ...scales,
-                            masculinity: parseInt(value, 10),
-                          });
-                        }}
-                        InputProps={{
-                          inputProps: { min: 0, max: 100, step: 1 },
-                        }}
-                      />
-                    </div>
-                    <div className="col-span-1">
-                      <TextField
-                        fullWidth
-                        size="small"
-                        label="Uncertainty Avoidance"
-                        type="number"
-                        id="uncertainty-avoidance"
-                        name="uncertainty-avoidance"
-                        placeholder="Uncertainty Avoidance"
-                        value={scales.uncertaintyAvoidance}
-                        onChange={(event) => {
-                          const value = event.target.value;
-                          setScales({
-                            ...scales,
-                            uncertaintyAvoidance: parseInt(value, 10),
-                          });
-                        }}
-                        InputProps={{
-                          inputProps: { min: 0, max: 100, step: 1 },
-                        }}
-                      />
-                    </div>
-                    <div className="col-span-1">
-                      <TextField
-                        fullWidth
-                        size="small"
-                        label="Long-term Orientation"
-                        type="number"
-                        id="long-term-orientation"
-                        name="long-term-orientation"
-                        placeholder="Long-term Orientation"
-                        value={scales.longTermOrientation}
-                        onChange={(event) => {
-                          const value = event.target.value;
-                          setScales({
-                            ...scales,
-                            longTermOrientation: parseInt(value, 10),
-                          });
-                        }}
-                        InputProps={{
-                          inputProps: { min: 0, max: 100, step: 1 },
-                        }}
-                      />
-                    </div>
-                    <div className="col-span-1">
-                      <TextField
-                        fullWidth
-                        size="small"
-                        label="Indulgence"
-                        type="number"
-                        id="indulgence"
-                        name="indulgence"
-                        placeholder="Indulgence"
-                        value={scales.indulgence}
-                        onChange={(event) => {
-                          const value = event.target.value;
-                          setScales({
-                            ...scales,
-                            indulgence: parseInt(value, 10),
-                          });
-                        }}
-                        InputProps={{
-                          inputProps: { min: 0, max: 100, step: 1 },
-                        }}
-                      />
-                    </div>
-                    <div className="col-span-full">
-                      <Button type="submit" variant="outlined" fullWidth>
-                        Submit
-                      </Button>
-                    </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div className="col-span-full">
                       <FormControl fullWidth>
                         <InputLabel id="country-select-label">
@@ -470,6 +335,166 @@ const HomePage: NextPage = () => {
                           })}
                         </Select>
                       </FormControl>
+                    </div>
+                    <div className="col-span-1">
+                      <Typography>
+                        Power Distance ({scales.powerDistance})
+                      </Typography>
+                      <Slider
+                        aria-label="Power Distance"
+                        step={1}
+                        valueLabelDisplay="auto"
+                        min={0}
+                        max={100}
+                        marks={[
+                          { value: 0, label: '0' },
+                          { value: 100, label: '100' },
+                        ]}
+                        value={scales.powerDistance}
+                        onChange={(_event, newValue: number | number[]) => {
+                          setScales({
+                            ...scales,
+                            powerDistance:
+                              typeof newValue === 'object'
+                                ? newValue[0]
+                                : newValue,
+                          });
+                          onChange(countryId);
+                        }}
+                      />
+                    </div>
+                    <div className="col-span-1">
+                      <Typography>
+                        Individualism ({scales.individualism})
+                      </Typography>
+                      <Slider
+                        aria-label="Individualism"
+                        step={1}
+                        valueLabelDisplay="auto"
+                        min={0}
+                        max={100}
+                        marks={[
+                          { value: 0, label: '0' },
+                          { value: 100, label: '100' },
+                        ]}
+                        value={scales.individualism}
+                        onChange={(_event, newValue: number | number[]) => {
+                          setScales({
+                            ...scales,
+                            individualism:
+                              typeof newValue === 'object'
+                                ? newValue[0]
+                                : newValue,
+                          });
+                          onChange(countryId);
+                        }}
+                      />
+                    </div>
+                    <div className="col-span-1">
+                      <Typography>
+                        Masculinity ({scales.masculinity})
+                      </Typography>
+                      <Slider
+                        aria-label="Masculinity"
+                        step={1}
+                        valueLabelDisplay="auto"
+                        min={0}
+                        max={100}
+                        marks={[
+                          { value: 0, label: '0' },
+                          { value: 100, label: '100' },
+                        ]}
+                        value={scales.masculinity}
+                        onChange={(_event, newValue: number | number[]) => {
+                          setScales({
+                            ...scales,
+                            masculinity:
+                              typeof newValue === 'object'
+                                ? newValue[0]
+                                : newValue,
+                          });
+                          onChange(countryId);
+                        }}
+                      />
+                    </div>
+                    <div className="col-span-1">
+                      <Typography>
+                        Uncertainty Avoidance ({scales.uncertaintyAvoidance})
+                      </Typography>
+                      <Slider
+                        aria-label="Uncertainty Avoidance"
+                        step={1}
+                        valueLabelDisplay="auto"
+                        min={0}
+                        max={100}
+                        marks={[
+                          { value: 0, label: '0' },
+                          { value: 100, label: '100' },
+                        ]}
+                        value={scales.uncertaintyAvoidance}
+                        onChange={(_event, newValue: number | number[]) => {
+                          setScales({
+                            ...scales,
+                            uncertaintyAvoidance:
+                              typeof newValue === 'object'
+                                ? newValue[0]
+                                : newValue,
+                          });
+                          onChange(countryId);
+                        }}
+                      />
+                    </div>
+                    <div className="col-span-1">
+                      <Typography>
+                        Long Term Orientation ({scales.longTermOrientation})
+                      </Typography>
+                      <Slider
+                        aria-label="Long-term Orientation"
+                        step={1}
+                        valueLabelDisplay="auto"
+                        min={0}
+                        max={100}
+                        marks={[
+                          { value: 0, label: '0' },
+                          { value: 100, label: '100' },
+                        ]}
+                        value={scales.longTermOrientation}
+                        onChange={(_event, newValue: number | number[]) => {
+                          setScales({
+                            ...scales,
+                            longTermOrientation:
+                              typeof newValue === 'object'
+                                ? newValue[0]
+                                : newValue,
+                          });
+                          onChange(countryId);
+                        }}
+                      />
+                    </div>
+                    <div className="col-span-1">
+                      <Typography>Indulgence ({scales.indulgence})</Typography>
+                      <Slider
+                        aria-label="Indulgence"
+                        step={1}
+                        valueLabelDisplay="auto"
+                        min={0}
+                        max={100}
+                        marks={[
+                          { value: 0, label: '0' },
+                          { value: 100, label: '100' },
+                        ]}
+                        value={scales.indulgence}
+                        onChange={(_event, newValue: number | number[]) => {
+                          setScales({
+                            ...scales,
+                            indulgence:
+                              typeof newValue === 'object'
+                                ? newValue[0]
+                                : newValue,
+                          });
+                          onChange(countryId);
+                        }}
+                      />
                     </div>
                   </div>
                 </form>
