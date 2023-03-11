@@ -1,5 +1,4 @@
 import {
-  Button,
   FormControl,
   InputLabel,
   MenuItem,
@@ -12,27 +11,37 @@ import {
   TableContainer,
   TableHead,
   TableRow,
-  TextField,
   Typography,
 } from '@mui/material';
 import Container from '@mui/material/Container';
+import { ChartData, ChartDataset, ChartOptions } from 'chart.js';
 import { NextPage } from 'next';
 import { FormEvent, useEffect, useState } from 'react';
 import { Bar } from 'react-chartjs-2';
 import countries from '../data/countries.json';
-import { ChartData, ChartDataset, ChartOptions } from 'chart.js';
 
 const randomNumber = () => Math.floor(Math.random() * 100);
 
-const fallbackCountry = {
-  id: 0,
-  country: 'Country',
-  powerDistance: -1,
-  individualism: -1,
-  masculinity: -1,
-  uncertaintyAvoidance: -1,
-  longTermOrientation: -1,
-  indulgence: -1,
+type Country = {
+  id: number;
+  country: string;
+  powerDistance: number;
+  individualism: number;
+  masculinity: number;
+  uncertaintyAvoidance: number;
+  longTermOrientation: number;
+  indulgence: number;
+};
+
+const defaultCountry: Country = {
+  id: 537,
+  country: 'Vietnam',
+  powerDistance: 70,
+  individualism: 20,
+  masculinity: 40,
+  uncertaintyAvoidance: 30,
+  longTermOrientation: 57,
+  indulgence: 35,
 };
 
 const labels = [
@@ -44,20 +53,22 @@ const labels = [
   'Indulgence',
 ];
 
-const firstDataset: ChartDataset<'bar', number[]> = {
+const colors = ['#1E3888', '#47A8BD', '#F5E663', '#FFAD69', '#9C3848'];
+
+const personalDataset: ChartDataset<'bar', number[]> = {
   data: [],
   label: 'You',
   borderRadius: 50,
-  backgroundColor: 'rgba(32, 214, 155, 1)',
+  backgroundColor: colors[0],
   barPercentage: 0.3,
   categoryPercentage: 0.5,
 };
 
-const secondDataset: ChartDataset<'bar', number[]> = {
+const countryDataset: ChartDataset<'bar', number[]> = {
   data: [],
   label: 'Country',
   borderRadius: 50,
-  backgroundColor: 'rgba(1, 98, 255, 1)',
+  backgroundColor: colors[1],
   barPercentage: 0.3,
   categoryPercentage: 0.5,
 };
@@ -185,14 +196,14 @@ const processRankings = (scales: Scales): Ranking[] => {
 const HomePage: NextPage = () => {
   const year = new Date().getFullYear();
 
-  const [countryId, setCountryId] = useState<number>(537);
+  const [countryIds, setCountryIds] = useState<number[]>([537]);
   const [scales, setScales] = useState<Scales>({
-    powerDistance: randomNumber(),
-    individualism: randomNumber(),
-    masculinity: randomNumber(),
-    uncertaintyAvoidance: randomNumber(),
-    longTermOrientation: randomNumber(),
-    indulgence: randomNumber(),
+    powerDistance: defaultCountry.powerDistance,
+    individualism: defaultCountry.individualism,
+    masculinity: defaultCountry.masculinity,
+    uncertaintyAvoidance: defaultCountry.uncertaintyAvoidance,
+    longTermOrientation: defaultCountry.longTermOrientation,
+    indulgence: defaultCountry.indulgence,
   });
 
   const [data, setData] = useState<{
@@ -204,47 +215,25 @@ const HomePage: NextPage = () => {
   });
 
   useEffect(() => {
-    const country =
-      countries.find((country) => country.id === countryId) || fallbackCountry;
-    const rankings = processRankings(scales);
-    setData({
-      chart: {
-        labels,
-        datasets: [
-          {
-            ...firstDataset,
-            data: [
-              scales.powerDistance,
-              scales.individualism,
-              scales.masculinity,
-              scales.uncertaintyAvoidance,
-              scales.longTermOrientation,
-              scales.indulgence,
-            ],
-          },
-          {
-            ...secondDataset,
-            label: country.country || 'Country',
-            data: [
-              country.powerDistance,
-              country.individualism,
-              country.masculinity,
-              country.uncertaintyAvoidance,
-              country.longTermOrientation,
-              country.indulgence,
-            ],
-          },
-        ],
-      },
-      rankings: rankings,
-    });
+    onChange(countryIds);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const onChange = (newCountryId: number) => {
+  const onChange = (newCountryIds: string | number[]) => {
+    let selectedCountryIds = newCountryIds;
+    if (typeof newCountryIds === 'string') {
+      selectedCountryIds = newCountryIds
+        .split(',')
+        .map((value) => parseInt(value, 10));
+    }
+    const selectedCountries: Country[] = countries.filter((country) =>
+      (selectedCountryIds as number[]).includes(country.id)
+    );
+
+    const rankings = processRankings(scales);
     const newDatasets = [
       {
-        ...firstDataset,
+        ...personalDataset,
         data: [
           scales.powerDistance,
           scales.individualism,
@@ -256,29 +245,32 @@ const HomePage: NextPage = () => {
       },
     ];
 
-    if (newCountryId !== 0) {
-      const country =
-        countries.find((country) => country.id === newCountryId) ||
-        fallbackCountry;
+    const total = selectedCountries.length > 4 ? 4 : selectedCountries.length;
+    for (let i = 0; i < total; i++) {
+      const country = selectedCountries[i];
+      const backgroundColor = colors[i + 1];
       newDatasets.push({
-        ...secondDataset,
-        label: country.country || 'Country',
+        ...countryDataset,
+        backgroundColor,
+        label: country?.country || 'Country',
         data: [
-          country.powerDistance,
-          country.individualism,
-          country.masculinity,
-          country.uncertaintyAvoidance,
-          country.longTermOrientation,
-          country.indulgence,
+          country?.powerDistance || 0,
+          country?.individualism || 0,
+          country?.masculinity || 0,
+          country?.uncertaintyAvoidance || 0,
+          country?.longTermOrientation || 0,
+          country?.indulgence || 0,
         ],
       });
     }
 
-    console.log(newCountryId);
-    console.log(newDatasets);
-
-    const rankings = processRankings(scales);
-    setData({ chart: { labels, datasets: newDatasets }, rankings });
+    setData({
+      chart: {
+        labels,
+        datasets: newDatasets,
+      },
+      rankings: rankings,
+    });
   };
 
   return (
@@ -298,7 +290,7 @@ const HomePage: NextPage = () => {
                 <form
                   onSubmit={(event: FormEvent<HTMLFormElement>) => {
                     event.preventDefault();
-                    onChange(countryId);
+                    onChange(countryIds);
                   }}
                 >
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -311,18 +303,15 @@ const HomePage: NextPage = () => {
                           size="small"
                           labelId="country-select-label"
                           id="country-select"
-                          value={countryId}
+                          value={countryIds}
                           label="Country"
+                          multiple
                           onChange={(event) => {
-                            const value = event.target.value;
-                            if (value === '') return;
-                            const newCountryId = parseInt(
-                              value.toString() || '0',
-                              10
-                            );
-                            setCountryId(() => {
-                              onChange(newCountryId);
-                              return newCountryId;
+                            const newCountryIds = event.target.value;
+
+                            setCountryIds(() => {
+                              onChange(newCountryIds);
+                              return newCountryIds as number[];
                             });
                           }}
                         >
@@ -359,7 +348,7 @@ const HomePage: NextPage = () => {
                                 ? newValue[0]
                                 : newValue,
                           });
-                          onChange(countryId);
+                          onChange(countryIds);
                         }}
                       />
                     </div>
@@ -386,7 +375,7 @@ const HomePage: NextPage = () => {
                                 ? newValue[0]
                                 : newValue,
                           });
-                          onChange(countryId);
+                          onChange(countryIds);
                         }}
                       />
                     </div>
@@ -413,7 +402,7 @@ const HomePage: NextPage = () => {
                                 ? newValue[0]
                                 : newValue,
                           });
-                          onChange(countryId);
+                          onChange(countryIds);
                         }}
                       />
                     </div>
@@ -440,7 +429,7 @@ const HomePage: NextPage = () => {
                                 ? newValue[0]
                                 : newValue,
                           });
-                          onChange(countryId);
+                          onChange(countryIds);
                         }}
                       />
                     </div>
@@ -467,7 +456,7 @@ const HomePage: NextPage = () => {
                                 ? newValue[0]
                                 : newValue,
                           });
-                          onChange(countryId);
+                          onChange(countryIds);
                         }}
                       />
                     </div>
@@ -492,7 +481,7 @@ const HomePage: NextPage = () => {
                                 ? newValue[0]
                                 : newValue,
                           });
-                          onChange(countryId);
+                          onChange(countryIds);
                         }}
                       />
                     </div>
