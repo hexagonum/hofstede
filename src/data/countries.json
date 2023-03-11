@@ -1,0 +1,1182 @@
+[
+  {
+    "id": 545,
+    "country": "Albania*",
+    "powerDistance": 90,
+    "individualism": 20,
+    "masculinity": 80,
+    "uncertaintyAvoidance": 70,
+    "longTermOrientation": 61,
+    "indulgence": 15
+  },
+  {
+    "id": 7062,
+    "country": "Algeria*",
+    "powerDistance": 80,
+    "individualism": 35,
+    "masculinity": 35,
+    "uncertaintyAvoidance": 70,
+    "longTermOrientation": 26,
+    "indulgence": 32
+  },
+  {
+    "id": 546,
+    "country": "Angola*",
+    "powerDistance": 83,
+    "individualism": 18,
+    "masculinity": 20,
+    "uncertaintyAvoidance": 60,
+    "longTermOrientation": 15,
+    "indulgence": 83
+  },
+  {
+    "id": 460,
+    "country": "Argentina",
+    "powerDistance": 49,
+    "individualism": 46,
+    "masculinity": 56,
+    "uncertaintyAvoidance": 86,
+    "longTermOrientation": 20,
+    "indulgence": 62
+  },
+  {
+    "id": 7067,
+    "country": "Armenia*",
+    "powerDistance": 85,
+    "individualism": 22,
+    "masculinity": 50,
+    "uncertaintyAvoidance": 88,
+    "longTermOrientation": 61,
+    "indulgence": 25
+  },
+  {
+    "id": 459,
+    "country": "Australia",
+    "powerDistance": 38,
+    "individualism": 90,
+    "masculinity": 61,
+    "uncertaintyAvoidance": 51,
+    "longTermOrientation": 21,
+    "indulgence": 71
+  },
+  {
+    "id": 461,
+    "country": "Austria",
+    "powerDistance": 11,
+    "individualism": 55,
+    "masculinity": 79,
+    "uncertaintyAvoidance": 70,
+    "longTermOrientation": 60,
+    "indulgence": 63
+  },
+  {
+    "id": 7074,
+    "country": "Azerbaijan*",
+    "powerDistance": 85,
+    "individualism": 22,
+    "masculinity": 50,
+    "uncertaintyAvoidance": 88,
+    "longTermOrientation": 61,
+    "indulgence": 22
+  },
+  {
+    "id": 519,
+    "country": "Bangladesh",
+    "powerDistance": 80,
+    "individualism": 20,
+    "masculinity": 55,
+    "uncertaintyAvoidance": 60,
+    "longTermOrientation": 47,
+    "indulgence": 20
+  },
+  {
+    "id": 7077,
+    "country": "Belarus*",
+    "powerDistance": 95,
+    "individualism": 25,
+    "masculinity": 20,
+    "uncertaintyAvoidance": 95,
+    "longTermOrientation": 81,
+    "indulgence": 15
+  },
+  {
+    "id": 462,
+    "country": "Belgium",
+    "powerDistance": 65,
+    "individualism": 75,
+    "masculinity": 54,
+    "uncertaintyAvoidance": 94,
+    "longTermOrientation": 82,
+    "indulgence": 57
+  },
+  {
+    "id": 463,
+    "country": "Bhutan*",
+    "powerDistance": 94,
+    "individualism": 52,
+    "masculinity": 32,
+    "uncertaintyAvoidance": 28,
+    "longTermOrientation": -1,
+    "indulgence": -1
+  },
+  {
+    "id": 7027,
+    "country": "Bolivia*",
+    "powerDistance": 78,
+    "individualism": 10,
+    "masculinity": 42,
+    "uncertaintyAvoidance": 87,
+    "longTermOrientation": 25,
+    "indulgence": 46
+  },
+  {
+    "id": 7086,
+    "country": "Bosnia and Herzegovina*",
+    "powerDistance": 90,
+    "individualism": 22,
+    "masculinity": 48,
+    "uncertaintyAvoidance": 87,
+    "longTermOrientation": 70,
+    "indulgence": 44
+  },
+  {
+    "id": 465,
+    "country": "Brazil",
+    "powerDistance": 69,
+    "individualism": 38,
+    "masculinity": 49,
+    "uncertaintyAvoidance": 76,
+    "longTermOrientation": 44,
+    "indulgence": 59
+  },
+  {
+    "id": 466,
+    "country": "Bulgaria",
+    "powerDistance": 70,
+    "individualism": 30,
+    "masculinity": 40,
+    "uncertaintyAvoidance": 85,
+    "longTermOrientation": 69,
+    "indulgence": 16
+  },
+  {
+    "id": 548,
+    "country": "Burkina Faso*",
+    "powerDistance": 70,
+    "individualism": 15,
+    "masculinity": 50,
+    "uncertaintyAvoidance": 55,
+    "longTermOrientation": 27,
+    "indulgence": 18
+  },
+  {
+    "id": 467,
+    "country": "Canada",
+    "powerDistance": 39,
+    "individualism": 80,
+    "masculinity": 52,
+    "uncertaintyAvoidance": 48,
+    "longTermOrientation": 36,
+    "indulgence": 68
+  },
+  {
+    "id": 547,
+    "country": "Cape Verde*",
+    "powerDistance": 75,
+    "individualism": 20,
+    "masculinity": 15,
+    "uncertaintyAvoidance": 40,
+    "longTermOrientation": 12,
+    "indulgence": 83
+  },
+  {
+    "id": 468,
+    "country": "Chile",
+    "powerDistance": 63,
+    "individualism": 23,
+    "masculinity": 28,
+    "uncertaintyAvoidance": 86,
+    "longTermOrientation": 31,
+    "indulgence": 68
+  },
+  {
+    "id": 469,
+    "country": "China",
+    "powerDistance": 80,
+    "individualism": 20,
+    "masculinity": 66,
+    "uncertaintyAvoidance": 30,
+    "longTermOrientation": 87,
+    "indulgence": 24
+  },
+  {
+    "id": 470,
+    "country": "Colombia",
+    "powerDistance": 67,
+    "individualism": 13,
+    "masculinity": 64,
+    "uncertaintyAvoidance": 80,
+    "longTermOrientation": 13,
+    "indulgence": 83
+  },
+  {
+    "id": 471,
+    "country": "Costa Rica",
+    "powerDistance": 35,
+    "individualism": 15,
+    "masculinity": 21,
+    "uncertaintyAvoidance": 86,
+    "longTermOrientation": -1,
+    "indulgence": -1
+  },
+  {
+    "id": 472,
+    "country": "Croatia",
+    "powerDistance": 73,
+    "individualism": 33,
+    "masculinity": 40,
+    "uncertaintyAvoidance": 80,
+    "longTermOrientation": 58,
+    "indulgence": 33
+  },
+  {
+    "id": 474,
+    "country": "Czech Republic",
+    "powerDistance": 57,
+    "individualism": 58,
+    "masculinity": 57,
+    "uncertaintyAvoidance": 74,
+    "longTermOrientation": 70,
+    "indulgence": 29
+  },
+  {
+    "id": 473,
+    "country": "Denmark",
+    "powerDistance": 18,
+    "individualism": 74,
+    "masculinity": 16,
+    "uncertaintyAvoidance": 23,
+    "longTermOrientation": 35,
+    "indulgence": 70
+  },
+  {
+    "id": 549,
+    "country": "Dominican Republic*",
+    "powerDistance": 65,
+    "individualism": 30,
+    "masculinity": 65,
+    "uncertaintyAvoidance": 45,
+    "longTermOrientation": 13,
+    "indulgence": 54
+  },
+  {
+    "id": 475,
+    "country": "Ecuador",
+    "powerDistance": 78,
+    "individualism": 8,
+    "masculinity": 63,
+    "uncertaintyAvoidance": 67,
+    "longTermOrientation": -1,
+    "indulgence": -1
+  },
+  {
+    "id": 456,
+    "country": "Egypt*",
+    "powerDistance": 80,
+    "individualism": 37,
+    "masculinity": 55,
+    "uncertaintyAvoidance": 55,
+    "longTermOrientation": 42,
+    "indulgence": 0
+  },
+  {
+    "id": 477,
+    "country": "El Salvador",
+    "powerDistance": 66,
+    "individualism": 19,
+    "masculinity": 40,
+    "uncertaintyAvoidance": 94,
+    "longTermOrientation": 20,
+    "indulgence": 89
+  },
+  {
+    "id": 478,
+    "country": "Estonia",
+    "powerDistance": 40,
+    "individualism": 60,
+    "masculinity": 30,
+    "uncertaintyAvoidance": 60,
+    "longTermOrientation": 82,
+    "indulgence": 16
+  },
+  {
+    "id": 457,
+    "country": "Ethiopia*",
+    "powerDistance": 70,
+    "individualism": 20,
+    "masculinity": 65,
+    "uncertaintyAvoidance": 55,
+    "longTermOrientation": -1,
+    "indulgence": 46
+  },
+  {
+    "id": 550,
+    "country": "Fiji*",
+    "powerDistance": 78,
+    "individualism": 14,
+    "masculinity": 46,
+    "uncertaintyAvoidance": 48,
+    "longTermOrientation": -1,
+    "indulgence": -1
+  },
+  {
+    "id": 479,
+    "country": "Finland",
+    "powerDistance": 33,
+    "individualism": 63,
+    "masculinity": 26,
+    "uncertaintyAvoidance": 59,
+    "longTermOrientation": 38,
+    "indulgence": 57
+  },
+  {
+    "id": 480,
+    "country": "France",
+    "powerDistance": 68,
+    "individualism": 71,
+    "masculinity": 43,
+    "uncertaintyAvoidance": 86,
+    "longTermOrientation": 63,
+    "indulgence": 48
+  },
+  {
+    "id": 7089,
+    "country": "Georgia*",
+    "powerDistance": 65,
+    "individualism": 41,
+    "masculinity": 55,
+    "uncertaintyAvoidance": 85,
+    "longTermOrientation": 38,
+    "indulgence": 32
+  },
+  {
+    "id": 481,
+    "country": "Germany",
+    "powerDistance": 35,
+    "individualism": 67,
+    "masculinity": 66,
+    "uncertaintyAvoidance": 65,
+    "longTermOrientation": 83,
+    "indulgence": 40
+  },
+  {
+    "id": 482,
+    "country": "Ghana*",
+    "powerDistance": 80,
+    "individualism": 15,
+    "masculinity": 40,
+    "uncertaintyAvoidance": 65,
+    "longTermOrientation": 4,
+    "indulgence": 72
+  },
+  {
+    "id": 483,
+    "country": "Greece",
+    "powerDistance": 60,
+    "individualism": 35,
+    "masculinity": 57,
+    "uncertaintyAvoidance": 100,
+    "longTermOrientation": 45,
+    "indulgence": 50
+  },
+  {
+    "id": 484,
+    "country": "Guatemala",
+    "powerDistance": 95,
+    "individualism": 6,
+    "masculinity": 37,
+    "uncertaintyAvoidance": 98,
+    "longTermOrientation": -1,
+    "indulgence": -1
+  },
+  {
+    "id": 551,
+    "country": "Honduras*",
+    "powerDistance": 80,
+    "individualism": 20,
+    "masculinity": 40,
+    "uncertaintyAvoidance": 50,
+    "longTermOrientation": -1,
+    "indulgence": -1
+  },
+  {
+    "id": 485,
+    "country": "Hong Kong",
+    "powerDistance": 68,
+    "individualism": 25,
+    "masculinity": 57,
+    "uncertaintyAvoidance": 29,
+    "longTermOrientation": 61,
+    "indulgence": 17
+  },
+  {
+    "id": 520,
+    "country": "Hungary*",
+    "powerDistance": 46,
+    "individualism": 80,
+    "masculinity": 88,
+    "uncertaintyAvoidance": 82,
+    "longTermOrientation": 58,
+    "indulgence": 31
+  },
+  {
+    "id": 552,
+    "country": "Iceland*",
+    "powerDistance": 30,
+    "individualism": 60,
+    "masculinity": 10,
+    "uncertaintyAvoidance": 50,
+    "longTermOrientation": 28,
+    "indulgence": 67
+  },
+  {
+    "id": 541,
+    "country": "India",
+    "powerDistance": 77,
+    "individualism": 48,
+    "masculinity": 56,
+    "uncertaintyAvoidance": 40,
+    "longTermOrientation": 51,
+    "indulgence": 26
+  },
+  {
+    "id": 486,
+    "country": "Indonesia",
+    "powerDistance": 78,
+    "individualism": 14,
+    "masculinity": 46,
+    "uncertaintyAvoidance": 48,
+    "longTermOrientation": 62,
+    "indulgence": 38
+  },
+  {
+    "id": 488,
+    "country": "Iran",
+    "powerDistance": 58,
+    "individualism": 41,
+    "masculinity": 43,
+    "uncertaintyAvoidance": 59,
+    "longTermOrientation": 14,
+    "indulgence": 40
+  },
+  {
+    "id": 521,
+    "country": "Iraq*",
+    "powerDistance": 97,
+    "individualism": 31,
+    "masculinity": 53,
+    "uncertaintyAvoidance": 96,
+    "longTermOrientation": 12,
+    "indulgence": 23
+  },
+  {
+    "id": 489,
+    "country": "Ireland",
+    "powerDistance": 28,
+    "individualism": 70,
+    "masculinity": 68,
+    "uncertaintyAvoidance": 35,
+    "longTermOrientation": 24,
+    "indulgence": 65
+  },
+  {
+    "id": 490,
+    "country": "Israel",
+    "powerDistance": 13,
+    "individualism": 54,
+    "masculinity": 47,
+    "uncertaintyAvoidance": 81,
+    "longTermOrientation": 38,
+    "indulgence": -1
+  },
+  {
+    "id": 540,
+    "country": "Italy",
+    "powerDistance": 50,
+    "individualism": 76,
+    "masculinity": 70,
+    "uncertaintyAvoidance": 75,
+    "longTermOrientation": 61,
+    "indulgence": 30
+  },
+  {
+    "id": 522,
+    "country": "Jamaica",
+    "powerDistance": 45,
+    "individualism": 39,
+    "masculinity": 68,
+    "uncertaintyAvoidance": 13,
+    "longTermOrientation": -1,
+    "indulgence": -1
+  },
+  {
+    "id": 491,
+    "country": "Japan",
+    "powerDistance": 54,
+    "individualism": 46,
+    "masculinity": 95,
+    "uncertaintyAvoidance": 92,
+    "longTermOrientation": 88,
+    "indulgence": 42
+  },
+  {
+    "id": 553,
+    "country": "Jordan*",
+    "powerDistance": 70,
+    "individualism": 30,
+    "masculinity": 45,
+    "uncertaintyAvoidance": 65,
+    "longTermOrientation": 16,
+    "indulgence": 43
+  },
+  {
+    "id": 7100,
+    "country": "Kazakhstan*",
+    "powerDistance": 88,
+    "individualism": 20,
+    "masculinity": 50,
+    "uncertaintyAvoidance": 88,
+    "longTermOrientation": 85,
+    "indulgence": 22
+  },
+  {
+    "id": 554,
+    "country": "Kenya*",
+    "powerDistance": 70,
+    "individualism": 25,
+    "masculinity": 60,
+    "uncertaintyAvoidance": 50,
+    "longTermOrientation": -1,
+    "indulgence": -1
+  },
+  {
+    "id": 523,
+    "country": "Kuwait*",
+    "powerDistance": 90,
+    "individualism": 25,
+    "masculinity": 40,
+    "uncertaintyAvoidance": 80,
+    "longTermOrientation": -1,
+    "indulgence": -1
+  },
+  {
+    "id": 543,
+    "country": "Latvia",
+    "powerDistance": 44,
+    "individualism": 70,
+    "masculinity": 9,
+    "uncertaintyAvoidance": 63,
+    "longTermOrientation": 69,
+    "indulgence": 13
+  },
+  {
+    "id": 524,
+    "country": "Lebanon*",
+    "powerDistance": 62,
+    "individualism": 43,
+    "masculinity": 48,
+    "uncertaintyAvoidance": 57,
+    "longTermOrientation": 22,
+    "indulgence": 10
+  },
+  {
+    "id": 542,
+    "country": "Libya",
+    "powerDistance": 100,
+    "individualism": 35,
+    "masculinity": 66,
+    "uncertaintyAvoidance": 67,
+    "longTermOrientation": 15,
+    "indulgence": 74
+  },
+  {
+    "id": 544,
+    "country": "Lithuania",
+    "powerDistance": 42,
+    "individualism": 60,
+    "masculinity": 19,
+    "uncertaintyAvoidance": 65,
+    "longTermOrientation": 82,
+    "indulgence": 16
+  },
+  {
+    "id": 493,
+    "country": "Luxembourg",
+    "powerDistance": 40,
+    "individualism": 60,
+    "masculinity": 50,
+    "uncertaintyAvoidance": 70,
+    "longTermOrientation": 64,
+    "indulgence": 56
+  },
+  {
+    "id": 555,
+    "country": "Malawi*",
+    "powerDistance": 70,
+    "individualism": 30,
+    "masculinity": 40,
+    "uncertaintyAvoidance": 50,
+    "longTermOrientation": -1,
+    "indulgence": -1
+  },
+  {
+    "id": 494,
+    "country": "Malaysia",
+    "powerDistance": 100,
+    "individualism": 26,
+    "masculinity": 50,
+    "uncertaintyAvoidance": 36,
+    "longTermOrientation": 41,
+    "indulgence": 57
+  },
+  {
+    "id": 525,
+    "country": "Malta",
+    "powerDistance": 56,
+    "individualism": 59,
+    "masculinity": 47,
+    "uncertaintyAvoidance": 96,
+    "longTermOrientation": 47,
+    "indulgence": 66
+  },
+  {
+    "id": 495,
+    "country": "Mexico",
+    "powerDistance": 81,
+    "individualism": 30,
+    "masculinity": 69,
+    "uncertaintyAvoidance": 82,
+    "longTermOrientation": 24,
+    "indulgence": 97
+  },
+  {
+    "id": 7102,
+    "country": "Moldova*",
+    "powerDistance": 90,
+    "individualism": 27,
+    "masculinity": 39,
+    "uncertaintyAvoidance": 95,
+    "longTermOrientation": 71,
+    "indulgence": 19
+  },
+  {
+    "id": 7132,
+    "country": "Montenegro*",
+    "powerDistance": 88,
+    "individualism": 24,
+    "masculinity": 48,
+    "uncertaintyAvoidance": 90,
+    "longTermOrientation": 75,
+    "indulgence": 20
+  },
+  {
+    "id": 496,
+    "country": "Morocco",
+    "powerDistance": 70,
+    "individualism": 46,
+    "masculinity": 53,
+    "uncertaintyAvoidance": 68,
+    "longTermOrientation": 14,
+    "indulgence": 25
+  },
+  {
+    "id": 556,
+    "country": "Mozambique*",
+    "powerDistance": 85,
+    "individualism": 15,
+    "masculinity": 38,
+    "uncertaintyAvoidance": 44,
+    "longTermOrientation": 11,
+    "indulgence": 80
+  },
+  {
+    "id": 464,
+    "country": "Namibia*",
+    "powerDistance": 65,
+    "individualism": 30,
+    "masculinity": 40,
+    "uncertaintyAvoidance": 45,
+    "longTermOrientation": 35,
+    "indulgence": -1
+  },
+  {
+    "id": 557,
+    "country": "Nepal*",
+    "powerDistance": 65,
+    "individualism": 30,
+    "masculinity": 40,
+    "uncertaintyAvoidance": 40,
+    "longTermOrientation": -1,
+    "indulgence": -1
+  },
+  {
+    "id": 487,
+    "country": "Netherlands",
+    "powerDistance": 38,
+    "individualism": 80,
+    "masculinity": 14,
+    "uncertaintyAvoidance": 53,
+    "longTermOrientation": 67,
+    "indulgence": 68
+  },
+  {
+    "id": 532,
+    "country": "New Zealand",
+    "powerDistance": 22,
+    "individualism": 79,
+    "masculinity": 58,
+    "uncertaintyAvoidance": 49,
+    "longTermOrientation": 33,
+    "indulgence": 75
+  },
+  {
+    "id": 526,
+    "country": "Nigeria*",
+    "powerDistance": 80,
+    "individualism": 30,
+    "masculinity": 60,
+    "uncertaintyAvoidance": 55,
+    "longTermOrientation": 13,
+    "indulgence": 84
+  },
+  {
+    "id": 7113,
+    "country": "North Macedonia*",
+    "powerDistance": 90,
+    "individualism": 22,
+    "masculinity": 45,
+    "uncertaintyAvoidance": 87,
+    "longTermOrientation": 62,
+    "indulgence": 35
+  },
+  {
+    "id": 497,
+    "country": "Norway",
+    "powerDistance": 31,
+    "individualism": 69,
+    "masculinity": 8,
+    "uncertaintyAvoidance": 50,
+    "longTermOrientation": 35,
+    "indulgence": 55
+  },
+  {
+    "id": 498,
+    "country": "Pakistan",
+    "powerDistance": 55,
+    "individualism": 14,
+    "masculinity": 50,
+    "uncertaintyAvoidance": 70,
+    "longTermOrientation": 50,
+    "indulgence": 0
+  },
+  {
+    "id": 499,
+    "country": "Panama",
+    "powerDistance": 95,
+    "individualism": 11,
+    "masculinity": 44,
+    "uncertaintyAvoidance": 86,
+    "longTermOrientation": -1,
+    "indulgence": -1
+  },
+  {
+    "id": 7034,
+    "country": "Paraguay*",
+    "powerDistance": 70,
+    "individualism": 12,
+    "masculinity": 40,
+    "uncertaintyAvoidance": 85,
+    "longTermOrientation": 20,
+    "indulgence": 56
+  },
+  {
+    "id": 500,
+    "country": "Peru",
+    "powerDistance": 64,
+    "individualism": 16,
+    "masculinity": 42,
+    "uncertaintyAvoidance": 87,
+    "longTermOrientation": 25,
+    "indulgence": 46
+  },
+  {
+    "id": 501,
+    "country": "Philippines",
+    "powerDistance": 94,
+    "individualism": 32,
+    "masculinity": 64,
+    "uncertaintyAvoidance": 44,
+    "longTermOrientation": 27,
+    "indulgence": 42
+  },
+  {
+    "id": 502,
+    "country": "Poland",
+    "powerDistance": 68,
+    "individualism": 60,
+    "masculinity": 64,
+    "uncertaintyAvoidance": 93,
+    "longTermOrientation": 38,
+    "indulgence": 29
+  },
+  {
+    "id": 503,
+    "country": "Portugal",
+    "powerDistance": 63,
+    "individualism": 27,
+    "masculinity": 31,
+    "uncertaintyAvoidance": 99,
+    "longTermOrientation": 28,
+    "indulgence": 33
+  },
+  {
+    "id": 561,
+    "country": "Puerto Rico*",
+    "powerDistance": 68,
+    "individualism": 27,
+    "masculinity": 56,
+    "uncertaintyAvoidance": 38,
+    "longTermOrientation": 0,
+    "indulgence": 90
+  },
+  {
+    "id": 3873,
+    "country": "Qatar*",
+    "powerDistance": 93,
+    "individualism": 25,
+    "masculinity": 55,
+    "uncertaintyAvoidance": 80,
+    "longTermOrientation": -1,
+    "indulgence": -1
+  },
+  {
+    "id": 504,
+    "country": "Romania",
+    "powerDistance": 90,
+    "individualism": 30,
+    "masculinity": 42,
+    "uncertaintyAvoidance": 90,
+    "longTermOrientation": 52,
+    "indulgence": 20
+  },
+  {
+    "id": 505,
+    "country": "Russia",
+    "powerDistance": 93,
+    "individualism": 39,
+    "masculinity": 36,
+    "uncertaintyAvoidance": 95,
+    "longTermOrientation": 81,
+    "indulgence": 20
+  },
+  {
+    "id": 7147,
+    "country": "São Tomé and Príncipe*",
+    "powerDistance": 75,
+    "individualism": 37,
+    "masculinity": 24,
+    "uncertaintyAvoidance": 70,
+    "longTermOrientation": 32,
+    "indulgence": 41
+  },
+  {
+    "id": 531,
+    "country": "Saudi Arabia*",
+    "powerDistance": 72,
+    "individualism": 48,
+    "masculinity": 43,
+    "uncertaintyAvoidance": 64,
+    "longTermOrientation": 27,
+    "indulgence": 14
+  },
+  {
+    "id": 558,
+    "country": "Senegal*",
+    "powerDistance": 70,
+    "individualism": 25,
+    "masculinity": 45,
+    "uncertaintyAvoidance": 55,
+    "longTermOrientation": 25,
+    "indulgence": -1
+  },
+  {
+    "id": 534,
+    "country": "Serbia",
+    "powerDistance": 86,
+    "individualism": 25,
+    "masculinity": 43,
+    "uncertaintyAvoidance": 92,
+    "longTermOrientation": 52,
+    "indulgence": 28
+  },
+  {
+    "id": 527,
+    "country": "Sierra Leone*",
+    "powerDistance": 70,
+    "individualism": 20,
+    "masculinity": 40,
+    "uncertaintyAvoidance": 50,
+    "longTermOrientation": -1,
+    "indulgence": -1
+  },
+  {
+    "id": 506,
+    "country": "Singapore",
+    "powerDistance": 74,
+    "individualism": 20,
+    "masculinity": 48,
+    "uncertaintyAvoidance": 8,
+    "longTermOrientation": 72,
+    "indulgence": 46
+  },
+  {
+    "id": 507,
+    "country": "Slovakia",
+    "powerDistance": 100,
+    "individualism": 52,
+    "masculinity": 100,
+    "uncertaintyAvoidance": 51,
+    "longTermOrientation": 77,
+    "indulgence": 28
+  },
+  {
+    "id": 535,
+    "country": "Slovenia",
+    "powerDistance": 71,
+    "individualism": 27,
+    "masculinity": 19,
+    "uncertaintyAvoidance": 88,
+    "longTermOrientation": 49,
+    "indulgence": 48
+  },
+  {
+    "id": 528,
+    "country": "South Africa",
+    "powerDistance": 49,
+    "individualism": 65,
+    "masculinity": 63,
+    "uncertaintyAvoidance": 49,
+    "longTermOrientation": 34,
+    "indulgence": 63
+  },
+  {
+    "id": 492,
+    "country": "South Korea",
+    "powerDistance": 60,
+    "individualism": 18,
+    "masculinity": 39,
+    "uncertaintyAvoidance": 85,
+    "longTermOrientation": 100,
+    "indulgence": 29
+  },
+  {
+    "id": 508,
+    "country": "Spain",
+    "powerDistance": 57,
+    "individualism": 51,
+    "masculinity": 42,
+    "uncertaintyAvoidance": 86,
+    "longTermOrientation": 48,
+    "indulgence": 44
+  },
+  {
+    "id": 559,
+    "country": "Sri Lanka*",
+    "powerDistance": 80,
+    "individualism": 35,
+    "masculinity": 10,
+    "uncertaintyAvoidance": 45,
+    "longTermOrientation": 45,
+    "indulgence": -1
+  },
+  {
+    "id": 509,
+    "country": "Suriname",
+    "powerDistance": 85,
+    "individualism": 47,
+    "masculinity": 37,
+    "uncertaintyAvoidance": 92,
+    "longTermOrientation": -1,
+    "indulgence": -1
+  },
+  {
+    "id": 510,
+    "country": "Sweden",
+    "powerDistance": 31,
+    "individualism": 71,
+    "masculinity": 5,
+    "uncertaintyAvoidance": 29,
+    "longTermOrientation": 53,
+    "indulgence": 78
+  },
+  {
+    "id": 511,
+    "country": "Switzerland",
+    "powerDistance": 34,
+    "individualism": 68,
+    "masculinity": 70,
+    "uncertaintyAvoidance": 58,
+    "longTermOrientation": 74,
+    "indulgence": 66
+  },
+  {
+    "id": 560,
+    "country": "Syria*",
+    "powerDistance": 80,
+    "individualism": 35,
+    "masculinity": 52,
+    "uncertaintyAvoidance": 60,
+    "longTermOrientation": 30,
+    "indulgence": -1
+  },
+  {
+    "id": 536,
+    "country": "Taiwan",
+    "powerDistance": 58,
+    "individualism": 17,
+    "masculinity": 45,
+    "uncertaintyAvoidance": 69,
+    "longTermOrientation": 93,
+    "indulgence": 49
+  },
+  {
+    "id": 529,
+    "country": "Tanzania*",
+    "powerDistance": 70,
+    "individualism": 25,
+    "masculinity": 40,
+    "uncertaintyAvoidance": 50,
+    "longTermOrientation": 34,
+    "indulgence": 38
+  },
+  {
+    "id": 512,
+    "country": "Thailand",
+    "powerDistance": 64,
+    "individualism": 20,
+    "masculinity": 34,
+    "uncertaintyAvoidance": 64,
+    "longTermOrientation": 32,
+    "indulgence": 45
+  },
+  {
+    "id": 538,
+    "country": "Trinidad and Tobago",
+    "powerDistance": 47,
+    "individualism": 16,
+    "masculinity": 58,
+    "uncertaintyAvoidance": 55,
+    "longTermOrientation": 13,
+    "indulgence": 80
+  },
+  {
+    "id": 7149,
+    "country": "Tunisia*",
+    "powerDistance": 70,
+    "individualism": 40,
+    "masculinity": 40,
+    "uncertaintyAvoidance": 75,
+    "longTermOrientation": -1,
+    "indulgence": -1
+  },
+  {
+    "id": 513,
+    "country": "Turkey",
+    "powerDistance": 66,
+    "individualism": 37,
+    "masculinity": 45,
+    "uncertaintyAvoidance": 85,
+    "longTermOrientation": 46,
+    "indulgence": 49
+  },
+  {
+    "id": 533,
+    "country": "Ukraine*",
+    "powerDistance": 92,
+    "individualism": 25,
+    "masculinity": 27,
+    "uncertaintyAvoidance": 95,
+    "longTermOrientation": 86,
+    "indulgence": 14
+  },
+  {
+    "id": 518,
+    "country": "United Arab Emirates*",
+    "powerDistance": 74,
+    "individualism": 36,
+    "masculinity": 52,
+    "uncertaintyAvoidance": 66,
+    "longTermOrientation": 22,
+    "indulgence": 22
+  },
+  {
+    "id": 514,
+    "country": "United Kingdom",
+    "powerDistance": 35,
+    "individualism": 89,
+    "masculinity": 66,
+    "uncertaintyAvoidance": 35,
+    "longTermOrientation": 51,
+    "indulgence": 69
+  },
+  {
+    "id": 515,
+    "country": "United States",
+    "powerDistance": 40,
+    "individualism": 91,
+    "masculinity": 62,
+    "uncertaintyAvoidance": 46,
+    "longTermOrientation": 26,
+    "indulgence": 68
+  },
+  {
+    "id": 539,
+    "country": "Uruguay",
+    "powerDistance": 61,
+    "individualism": 36,
+    "masculinity": 38,
+    "uncertaintyAvoidance": 98,
+    "longTermOrientation": 26,
+    "indulgence": 53
+  },
+  {
+    "id": 516,
+    "country": "Venezuela",
+    "powerDistance": 81,
+    "individualism": 12,
+    "masculinity": 73,
+    "uncertaintyAvoidance": 76,
+    "longTermOrientation": 16,
+    "indulgence": 100
+  },
+  {
+    "id": 537,
+    "country": "Vietnam",
+    "powerDistance": 70,
+    "individualism": 20,
+    "masculinity": 40,
+    "uncertaintyAvoidance": 30,
+    "longTermOrientation": 57,
+    "indulgence": 35
+  },
+  {
+    "id": 530,
+    "country": "Zambia*",
+    "powerDistance": 60,
+    "individualism": 35,
+    "masculinity": 40,
+    "uncertaintyAvoidance": 50,
+    "longTermOrientation": 30,
+    "indulgence": 42
+  }
+]
