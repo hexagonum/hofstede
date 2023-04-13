@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "description": "Geert Hofstede",
   "main": "index.js",
-  "repository": "git@github.com:houseoftypescript/hofstede.git",
+  "repository": "git@github.com:hexagonum/hofstede.git",
   "author": "hieudoanm <hieumdoan@gmail.com>",
-  "license": "MIT",
+  "license": "GNU GPL V3.0",
   "private": true,
   "engines": {
     "node": ">= 16",
