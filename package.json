@@ -27,7 +27,7 @@
     "@emotion/styled": "11.11.0",
     "@fontsource/roboto": "5.0.0",
     "@mui/icons-material": "5.11.16",
-    "@mui/material": "5.13.1",
+    "@mui/material": "5.13.2",
     "axios": "1.4.0",
     "chart.js": "4.3.0",
     "eslint": "8.41.0",
