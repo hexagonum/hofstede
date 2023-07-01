@@ -7,11 +7,6 @@
   "author": "hieudoanm <hieumdoan@gmail.com>",
   "license": "GNU GPL V3.0",
   "private": true,
-  "engines": {
-    "node": "20.3.1",
-    "npm": "9.7.2",
-    "yarn": "1.22.19"
-  },
   "scripts": {
     "dev": "kill-port 3000 && next dev -p 3000",
     "prebuild": "ts-node ./scripts/countries",
